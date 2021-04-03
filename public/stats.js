@@ -196,6 +196,7 @@ function workoutNames(data) {
 
   data.forEach((workout) => {
     workout.exercises.forEach((exercise) => {
+      console.log(exercise)
       workouts.push(exercise.name);
     });
   });
